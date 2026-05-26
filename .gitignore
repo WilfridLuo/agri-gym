@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets and local config
+.env
+api_keys.env
+*.key
+*.pem
+
+# Data, model caches, and outputs
+data/
+mirage_mmst_output/
+demo_output/
+demo_test/
+outputs/
+logs/
+*.jsonl
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+
+# Generated visual tool artifacts
+crop*/
+zoom*/
+bbox*/
+output*/
+*_crop_*.jpg
+*_zoom_*.jpg
+*_bbox_*.jpg
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
